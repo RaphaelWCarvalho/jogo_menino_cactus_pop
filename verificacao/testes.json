@@ -1,0 +1,26 @@
+[
+  {
+    "replay": "Grab bug (PR288).p1r",
+    "original_and_mc_identical": true,
+    "result": "Replay ended in level 1, room 7.\r\nKid is alive.\r\nRemaining time: 57 min, 49 sec, 11 ticks. (rem_min=58, rem_tick=599)\r\nPlay duration:  0 min, 2 sec, 6 ticks. (curr_tick=30)\r\n\r\nPlay duration matches replay length. (30 ticks)"
+  },
+  {
+    "replay": "Original level 2 falling into wall.p1r",
+    "original_and_mc_identical": true,
+    "result": "Replay ended in level 2, room 17.\r\nKid is dead.\r\nRemaining time: 59 min, 53 sec, 11 ticks. (rem_min=60, rem_tick=647)\r\nPlay duration:  0 min, 7 sec, 9 ticks. (curr_tick=93)\r\n\r\nPlay duration matches replay length. (93 ticks)"
+  },
+  {
+    "replay": "Original level 5 shadow into wall.p1r",
+    "original_and_mc_identical": true,
+    "result": "Replay ended in level 5, room 24.\r\nKid is alive.\r\nRemaining time: 25 min, 47 sec, 1 ticks. (rem_min=26, rem_tick=565)\r\nPlay duration:  0 min, 14 sec, 7 ticks. (curr_tick=175)\r\n\r\nPlay duration matches replay length. (175 ticks)"
+  },
+  {
+    "static_visual_difference_bbox": [
+      225,
+      80,
+      236,
+      119
+    ],
+    "scenery_unchanged": true
+  }
+]

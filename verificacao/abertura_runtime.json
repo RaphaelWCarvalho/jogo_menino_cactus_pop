@@ -1,0 +1,6 @@
+{
+  "normal_intro_alive_after_seconds": 45,
+  "mode": "SDL dummy video/audio; no interaction with the user desktop",
+  "engine_unchanged": true,
+  "scope": "Intro runtime smoke test and image format/layout verification; not a full playthrough."
+}

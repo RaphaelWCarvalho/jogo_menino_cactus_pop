@@ -1,0 +1,3 @@
+@echo off
+cd /d "%~dp0Menino_Cactus_Jogavel"
+start "" "%~dp0Menino_Cactus_Jogavel\prince.exe" mod MeninoCactus

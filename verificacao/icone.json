@@ -1,0 +1,16 @@
+{
+  "icon": "Menino_Cactus_rosto.ico",
+  "sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "executable_code_and_all_non_resource_sections_unchanged": true,
+  "window_icon": "data/icon.png",
+  "group_name": "A",
+  "resource_language": 1033
+}

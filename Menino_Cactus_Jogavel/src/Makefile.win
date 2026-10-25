@@ -1,0 +1,93 @@
+# Project: SDLPoP
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = port_release_private.res
+OBJ      = main.o seg008.o seg007.o seg009.o seg000.o seg003.o seg006.o data.o seg001.o seg002.o seg004.o seg005.o seqtbl.o replay.o options.o lighting.o screenshot.o menu.o midi.o opl3.o stb_vorbis.o $(RES)
+LINKOBJ  = main.o seg008.o seg007.o seg009.o seg000.o seg003.o seg006.o data.o seg001.o seg002.o seg004.o seg005.o seqtbl.o replay.o options.o lighting.o screenshot.o menu.o midi.o opl3.o stb_vorbis.o $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -mwindows -l"mingw32" -l"SDL2main" -l"SDL2.dll" -l"SDL2_image" -m32 -s
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"c:/Program Files (x86)/Dev-Cpp/MinGW64/include/SDL2/"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"c:/Program Files (x86)/Dev-Cpp/MinGW64/include/SDL2/"
+BIN      = ../prince.exe
+CXXFLAGS = $(CXXINCS) -m32 -Wall -O2
+CFLAGS   = $(INCS) -m32 -Wall -std=c99 -O2
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+seg008.o: seg008.c
+	$(CC) -c seg008.c -o seg008.o $(CFLAGS)
+
+seg007.o: seg007.c
+	$(CC) -c seg007.c -o seg007.o $(CFLAGS)
+
+seg009.o: seg009.c
+	$(CC) -c seg009.c -o seg009.o $(CFLAGS)
+
+seg000.o: seg000.c
+	$(CC) -c seg000.c -o seg000.o $(CFLAGS)
+
+seg003.o: seg003.c
+	$(CC) -c seg003.c -o seg003.o $(CFLAGS)
+
+seg006.o: seg006.c
+	$(CC) -c seg006.c -o seg006.o $(CFLAGS)
+
+data.o: data.c
+	$(CC) -c data.c -o data.o $(CFLAGS)
+
+seg001.o: seg001.c
+	$(CC) -c seg001.c -o seg001.o $(CFLAGS)
+
+seg002.o: seg002.c
+	$(CC) -c seg002.c -o seg002.o $(CFLAGS)
+
+seg004.o: seg004.c
+	$(CC) -c seg004.c -o seg004.o $(CFLAGS)
+
+seg005.o: seg005.c
+	$(CC) -c seg005.c -o seg005.o $(CFLAGS)
+
+seqtbl.o: seqtbl.c
+	$(CC) -c seqtbl.c -o seqtbl.o $(CFLAGS)
+
+replay.o: replay.c
+	$(CC) -c replay.c -o replay.o $(CFLAGS)
+
+options.o: options.c
+	$(CC) -c options.c -o options.o $(CFLAGS)
+
+lighting.o: lighting.c
+	$(CC) -c lighting.c -o lighting.o $(CFLAGS)
+
+screenshot.o: screenshot.c
+	$(CC) -c screenshot.c -o screenshot.o $(CFLAGS)
+
+menu.o: menu.c
+	$(CC) -c menu.c -o menu.o $(CFLAGS)
+
+midi.o: midi.c
+	$(CC) -c midi.c -o midi.o $(CFLAGS)
+
+opl3.o: opl3.c
+	$(CC) -c opl3.c -o opl3.o $(CFLAGS)
+
+stb_vorbis.o: stb_vorbis.c
+	$(CC) -c stb_vorbis.c -o stb_vorbis.o $(CFLAGS)
+
+port_release_private.res: port_release_private.rc 
+	$(WINDRES) -i port_release_private.rc -F pe-i386 --input-format=rc -o port_release_private.res -O coff 
+

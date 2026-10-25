@@ -1,0 +1,5 @@
+Prévia visual de 15 segundos. Sem capa.
+Cenários e poses: SDLPoP 1.23 (https://github.com/NagyD/SDLPoP).
+As imagens foram compostas fora do jogo; deslocamento e salto são uma simulação.
+Esta prévia não comprova colisões, controles ou uma modificação completa.
+Visual inspirado nas referências fornecidas: máscara, cabelo, verde e amarelo.

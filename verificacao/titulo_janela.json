@@ -1,0 +1,10 @@
+{
+  "window_title": "Jogo Menino Cactus",
+  "only_changed_executable_region": [
+    314560,
+    314591
+  ],
+  "executable_length_unchanged": true,
+  "changed_bytes": 31,
+  "sha256": "ea690632f965ca18b668762c41f04fe840745ffebd490d3a09212195020474e3"
+}

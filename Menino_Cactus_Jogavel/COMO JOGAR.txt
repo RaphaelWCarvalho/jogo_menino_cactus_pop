@@ -1,0 +1,31 @@
+﻿MENINO CACTUS - O PALÁCIO DAS SOMBRAS
+
+Para começar, pressione a tecla Windows, procure Jogo Menino Cactus e aperte Enter.
+Você também pode dar dois cliques em JOGAR.cmd (ou em prince.exe).
+Na apresentação do jogo, pressione qualquer tecla para começar.
+
+CONTROLES
+Setas esquerda/direita: virar e correr.
+Seta para cima: pular ou subir. Durante a corrida: salto para a frente.
+Seta para baixo: agachar ou descer.
+Shift + setas: passos cuidadosos.
+Segure Shift durante uma queda para se agarrar à borda.
+Shift: pegar objetos; atacar quando estiver com a espada.
+Seta para cima com a espada: defender.
+F6: salvar rapidamente. F9: carregar.
+Ctrl+A: recomeçar a fase. Esc: pausar e abrir opções.
+Alt+Enter: alternar tela cheia. Ctrl+Q: sair.
+
+SOBRE ESTA VERSÃO
+Adaptação visual sem capa: máscara, cabelo, uniforme verde e detalhes amarelos.
+O motor, as fases, os controles e os tempos de animação são os do SDLPoP 1.23.
+Os quadros mantêm o tamanho e a silhueta originais. Não há novos poderes.
+Esta é uma primeira versão visual: alguns detalhes do traje podem ser refinados.
+
+Referências do personagem fornecidas pelo usuário.
+Motor: SDLPoP, por Dávid Nagy e colaboradores, GPL v3 ou posterior.
+Projeto: https://github.com/NagyD/SDLPoP
+Licença em COPYING; código correspondente em src; instruções em README.md.
+
+Abertura e encerramento em português com narrativa própria do MC.
+As cenas animadas da história são as originais do Prince of Persia.

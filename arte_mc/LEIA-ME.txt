@@ -1,0 +1,4 @@
+﻿Arte original criada com a ferramenta integrada de geração de imagens, usando o desenho fornecido como referência.
+Título e textos rasterizados para os recursos nativos do SDLPoP.
+Abertura, segunda página e encerramento personalizados; cenas animadas permanecem as originais.
+A versão anterior está preservada em ../versoes/Menino_Cactus_v1_aprovado.zip.

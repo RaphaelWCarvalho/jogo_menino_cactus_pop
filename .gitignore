@@ -1,0 +1,26 @@
+# Ferramentas baixadas e caches locais
+preview/tools/
+preview/ffmpeg_path.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configuracoes privadas e arquivos temporarios
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.lnk
+Thumbs.db
+Desktop.ini
+.DS_Store
+stdout.txt
+stderr.txt
+*.log
+
+# Progresso local do jogo
+quicksave.sav
+QUICKSAVE.SAV
+PRINCE.SAV
